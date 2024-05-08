@@ -45,7 +45,7 @@ function setup() {
   floatingImageY = random(height);
   floatingImage1X = random(width);
   floatingImage1Y = random(height);
-  minim = new minim(this);
+  minim = new Minim(this);
   player = minim.loadFile("Super Mario Galaxy - Gateway Galaxy.mp3", 2048);
   player.play();
 }
