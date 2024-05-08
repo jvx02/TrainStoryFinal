@@ -17,16 +17,16 @@ let minim;
 let player;
 
 function preload() {
-  backgroundImage = loadImage("data/stars.gif");
-  satellite1 = loadImage("data/Smiskis.png");
-  satellite2 = loadImage("data/Natalie.png");
-  clockImage = loadImage("data/Clock.png");
-  hourHand = loadImage("data/hour_hand.png");
-  minuteHand = loadImage("data/minute_hand.png");
-  secondHand = loadImage("data/second_hand.png");
-  floatingImage = loadImage("data/satellite-png-5.png");
-  floatingImage1 = loadImage("data/Satellite22.png");
-  sunButton = loadImage("data/sowsun.png");
+  backgroundImage = loadImage("stars.gif");
+  satellite1 = loadImage("Smiskis.png");
+  satellite2 = loadImage("Natalie.png");
+  clockImage = loadImage("Clock.png");
+  hourHand = loadImage("hour_hand.png");
+  minuteHand = loadImage("minute_hand.png");
+  secondHand = loadImage("second_hand.png");
+  floatingImage = loadImage("satellite-png-5.png");
+  floatingImage1 = loadImage("Satellite22.png");
+  sunButton = loadImage("sowsun.png");
 }
 
 function setup() {
