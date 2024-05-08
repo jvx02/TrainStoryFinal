@@ -17,16 +17,16 @@ let minim;
 let player;
 
 function preload() {
-  backgroundImage = loadImage("stars.gif");
-  satellite1 = loadImage("Smiskis.png");
-  satellite2 = loadImage("Natalie.png");
-  clockImage = loadImage("Clock.png");
-  hourHand = loadImage("hour_hand.png");
-  minuteHand = loadImage("minute_hand.png");
-  secondHand = loadImage("second_hand.png");
-  floatingImage = loadImage("satellite-png-5.png");
-  floatingImage1 = loadImage("Satellite22.png");
-  sunButton = loadImage("sowsun.png");
+  backgroundImage = loadImage("data/stars.gif");
+  satellite1 = loadImage("data/Smiskis.png");
+  satellite2 = loadImage("data/Natalie.png");
+  clockImage = loadImage("data/Clock.png");
+  hourHand = loadImage("data/hour_hand.png");
+  minuteHand = loadImage("data/minute_hand.png");
+  secondHand = loadImage("data/second_hand.png");
+  floatingImage = loadImage("data/satellite-png-5.png");
+  floatingImage1 = loadImage("data/Satellite22.png");
+  sunButton = loadImage("data/sowsun.png");
 }
 
 function setup() {
@@ -46,7 +46,7 @@ function setup() {
   floatingImage1X = random(width);
   floatingImage1Y = random(height);
   minim = new Minim(this);
-  player = minim.loadFile("Super Mario Galaxy - Gateway Galaxy.mp3", 2048);
+  player = minim.loadFile("data/Super Mario Galaxy - Gateway Galaxy.mp3", 2048);
   player.play();
 }
 
